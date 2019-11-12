@@ -15,5 +15,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)memory_diagnostics.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)diagnostics\hash_map.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)diagnostics\operations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)diagnostics\hash_map.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)diagnostics\operators.cpp" />
   </ItemGroup>
 </Project>

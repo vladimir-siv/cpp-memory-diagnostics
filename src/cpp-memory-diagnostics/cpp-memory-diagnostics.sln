@@ -5,7 +5,29 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-memory-diagnostics", "cpp-memory-diagnostics\cpp-memory-diagnostics.vcxitems", "{AD0DB6AC-84B6-4C77-AA5F-0C88CEEB054E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tool-test", "tool-test\tool-test.vcxproj", "{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		cpp-memory-diagnostics\cpp-memory-diagnostics.vcxitems*{0b4399be-acfb-4e4a-a0d7-647a4a5a653f}*SharedItemsImports = 4
+		cpp-memory-diagnostics\cpp-memory-diagnostics.vcxitems*{ad0db6ac-84b6-4c77-aa5f-0c88ceeb054e}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Debug|x64.ActiveCfg = Debug|x64
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Debug|x64.Build.0 = Debug|x64
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Debug|x86.Build.0 = Debug|Win32
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Release|x64.ActiveCfg = Release|x64
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Release|x64.Build.0 = Release|x64
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Release|x86.ActiveCfg = Release|Win32
+		{0B4399BE-ACFB-4E4A-A0D7-647A4A5A653F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
