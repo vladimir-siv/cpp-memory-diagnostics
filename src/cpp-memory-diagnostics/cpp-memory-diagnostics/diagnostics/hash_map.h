@@ -1,5 +1,7 @@
 #pragma once
 
+#ifdef __MEMORY_DIAGNOSTICS__
+
 #include <exception>
 #include <cstdint>
 
@@ -137,3 +139,5 @@ namespace collections
 		}
 	};
 }
+
+#endif

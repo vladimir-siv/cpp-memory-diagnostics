@@ -1,3 +1,5 @@
+#ifdef __MEMORY_DIAGNOSTICS__
+
 #include <new>
 #include <cstdint>
 
@@ -217,3 +219,5 @@ void __CRTDECL operator delete[](void* _Block, size_t _Size, std::align_val_t _A
 
 }
 //#endif // __cpp_aligned_new*/
+
+#endif
