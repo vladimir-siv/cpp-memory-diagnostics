@@ -2,6 +2,8 @@
 
 #ifdef __MEMORY_DIAGNOSTICS__
 
+#include <cinttypes>
+
 extern bool __check_false_usages__();
 extern uint64_t __total_memory_usage__();
 extern uint64_t __total_object_usage__();
